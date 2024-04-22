@@ -1,28 +1,57 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Yelp
+My_pokemon
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Introduction
+Welcome to our Pokemon Web App! This application is built using React.js and provides comprehensive data on all Pokemon species. Whether you're a seasoned Pokemon trainer or just starting your journey, our app has everything you need to know about these fascinating creatures.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Task
+Deploy an application built in ReactJS into Amplify (AWS) using authentification.
+We've provided to you the code of an application and we would like it to be hosted in the cloud.
+This application is also using GraphQL, you might have to take a look. You are one hundred percent allowed to edit the source code; your mission is simple: make it work.
 
-Your application will also provide a search bar to filter pokemon.
+## Description
+This Pokemon Web App is a dynamic, interactive tool developed with React.js, designed to serve as an extensive resource for Pokemon enthusiasts. It features a comprehensive database of all Pokemon, complete with detailed entries including stats, types, abilities, and evolutionary paths. 
+## Installation
+To use My_Pokemon, follow these steps:
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+1. Clone the repository to your local machine using the following command:   `git clone https://github.com/totsilni/Frontend-my_pokemon.git`
 
-In order to perform the request to the API, you can use `Axios`.
+2. Navigate to the project directory and install the required dependencies using the following command:     `npm install`
 
-Your application needs to handle `errors`. (No internet/bad request.)
+3. Start the development server using the following command:     `npm run dev`
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+4. Open your web browser and navigate to `http://localhost:5173` to access the application.
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+`npm start`
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+Runs the app in the development mode.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-On the css/colors/design, you can be creative.
+`npm test`
+
+Launches the test runner in the interactive watch mode.
+
+`npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+
+
+## Usage
+Once the app is running, you can perform the following actions:
+
+  Browse through the list of Pokemon to view their details.
+  Use the search bar to find specific Pokemon by name or number.
+  Apply filters to narrow down your search based on types, abilities, or other criteria.
+  Click on individual Pokemon cards to see additional information and stats.
+  Explore evolutionary lines and related Pokemon.
+
+
+### The Core Team
+Furqatjon_Zokirjonovich
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt="Qwasar SV -- Software Engineering School's Logo" src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
